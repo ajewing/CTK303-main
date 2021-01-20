@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background-image: url(images/birthday.jpg); 
+  background-image: url(images/birthday.jpg);
 }
 
 #wrapper {
@@ -8,7 +8,7 @@ body {
   padding: 0px;
   width: 1200px;
   border: 2px solid black;
-  background-color: #ffffff;
+  background-color: #FFE6E6;
   display: grid;
   grid-template-columns: 3fr;
 }
