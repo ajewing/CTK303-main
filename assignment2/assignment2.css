@@ -5,8 +5,8 @@ body {
 header {
   background-color: #F0F8FF;
   border: 6px solid purple;
-  margin: 20px auto;
-  padding: 22px;
+  margin: 15px auto;
+  padding: 15px;
   width: 800px;
   text-align: center;
   Font-family: Changa serif;
@@ -35,9 +35,7 @@ h2 {
 }
 
 
-div {
-  image-orientation: center;
-}
+
 
 p {
   display: block;
