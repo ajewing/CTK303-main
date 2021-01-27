@@ -1,12 +1,18 @@
 
+body {
+
+background-color: #F2E6FF;
+}
+
   header {
     background-color: #F0F8FF;
-    border: 3px solid purple;
+    border: 6px solid purple;
     margin: 20px auto;
-    padding: 15px;
+    padding: 22px;
     width: 750px;
     text-align: center;
     Font-family: Changa serif;
+    text-decoration-color: #FFDD33;
 }
 h1 {
 display: block;
@@ -24,10 +30,16 @@ display: block;
     font-weight: bold;
 }
 
-h3 {
-    text-align: center;
+
+div {
+  image-orientation: center;
 }
 
 p {
+    display: block;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   text-align: center;
 }
