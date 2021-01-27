@@ -6,6 +6,7 @@
     padding: 15px;
     width: 750px;
     text-align: center;
+    Font-family: Changa serif;
 }
 h1 {
 display: block;
@@ -24,13 +25,7 @@ display: block;
 }
 
 h3 {
-    display: block;
-    font-size: 1.3em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    text-align: center;
 }
 
 p {
