@@ -3,6 +3,8 @@ body {
 animation: back-ani 10s linear infinite;
 }
 
+
+
 h1 {
     font-family:  fangsong, sans-serif;
     color: #B3B3FF;
@@ -13,6 +15,7 @@ h1 {
     margin-right: 320px;
     border-radius: 480px;
     background-color: #E6EAFF;
+     box-shadow: 5px 10px #888888;
 }
 
 @keyframes back-ani {
@@ -55,6 +58,7 @@ h2 {
   font-size: 50px;
 text-align: center;
 width: 500px;
+text-shadow: 2px 2px 2px rgba(206,89,55,0)
 }
 
 img {
