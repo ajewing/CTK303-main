@@ -1,19 +1,18 @@
 body {
   background-image: url(image/space.jpg);
-
+animation: back-ani 10s linear infinite;
 }
 
 h1 {
     font-family:  fangsong, sans-serif;
-    color: white;
+    color: #B3B3FF;
     font-size: 80px;
     padding: 14px;
     text-align: center;
     margin-left: 320px;
     margin-right: 320px;
     border-radius: 480px;
-    background-color: #e01600;
-    animation: back-ani 10s linear infinite;
+    background-color: #E6EAFF;
 }
 
 @keyframes back-ani {
@@ -53,7 +52,7 @@ h1 {
 
 h2 {
   display: inline-block;
-  font-size: 30px;
+  font-size: 50px;
 text-align: center;
 width: 500px;
 }
@@ -68,12 +67,14 @@ img {
 .hz {
   display: inline-block;
   width: 500px;
+  font-size: 30px;
 
 }
 
 .desc {
   display: inline-block;
   width: 500px;
+  font-size: 30px;
 
 }
 
