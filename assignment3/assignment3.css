@@ -1,15 +1,17 @@
 body {
+  background-image: url(image/space.jpg);
 
 }
 
 h1 {
-    font-family: condor, sans-serif;
+    font-family:  fangsong, sans-serif;
     color: white;
-    font-size: 70px;
+    font-size: 80px;
+    padding: 14px;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 500px;
+    margin-left: 320px;
+    margin-right: 320px;
+    border-radius: 480px;
     background-color: #e01600;
     animation: back-ani 10s linear infinite;
 }
@@ -51,34 +53,38 @@ h1 {
 
 h2 {
   display: inline-block;
-  width:
-
+  font-size: 30px;
+text-align: center;
+width: 500px;
 }
 
 img {
   display: inline-block;
-     width: 500px;
+     width: 400px;
   transform: translate()
+
 }
 
 .hz {
   display: inline-block;
+  width: 500px;
 
 }
 
 .desc {
   display: inline-block;
+  width: 500px;
 
 }
 
 #slide1 {
-  width: 500px;
   overflow: hidden;
 }
 
 #slide1 img {
-  width: 500px;
   transition: all .25s;
+  position: relative;
+  animation: circle1-ani 4s linear infinite;
 }
 
 #slide1:hover img {
@@ -86,7 +92,6 @@ img {
 }
 
 #slide2 {
-  width: 500px;
   overflow: hidden;
 }
 
@@ -99,7 +104,7 @@ img {
 }
 
 #slide3 {
-  width: 500px;
+    overflow: hidden;
 }
 
 #slide3 img {
