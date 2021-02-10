@@ -1,0 +1,113 @@
+body  {
+    width: 500px;
+    animation: zoom 5.0s;
+    transform-origin: left top;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+
+
+#circleSVG {
+  opacity: 1;
+  transition: all 1s linear;
+  border: 1px solid red;
+}
+
+#circleSVG:hover {
+  fill: red;
+  opacity: .5;
+  transform: scale(5);
+}
+
+#SVGLogo {
+  width: 500px;
+  display: block;
+}
+
+#M {
+  animation: mfade 1.0s;
+}
+
+@keyframes mfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#I {
+  animation: ifade 1.0s;
+  transform-origin: right top;
+}
+
+@keyframes ifade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#S {
+  animation: sfade 1.0s;
+  transform-origin: center;
+}
+
+@keyframes sfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#S-2 {
+  animation: sfade 1.0s;
+  transform-origin: center;
+}
+
+@keyframes sfade {
+  0%   { transform: rotate(-360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#H {
+  animation: ifade 1.0s;
+  transform-origin: left top;
+}
+
+@keyframes ifade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#A {
+  animation: mfade 1.0s;
+}
+
+@keyframes mfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#P {
+  animation: hfade 1.0s;
+}
+
+@keyframes hfade {
+  0%   { transform: translate(0, 200px);}
+  100% { transform: translate(0, 0);}
+}
+
+#E {
+  animation: ifade 1.0s;
+  transform-origin: right top;
+}
+
+@keyframes ifade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#N {
+  animation: nfade 1.0s;
+}
+
+@keyframes nfade {
+  0%   { transform: translate(0, 200px);}
+  100% { transform: translate(0, 0);}
+}
