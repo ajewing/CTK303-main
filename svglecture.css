@@ -1,5 +1,6 @@
 body  {
     width: 500px;
+    background-image: url(image/abstractshape.jpg); 
     animation: zoom 5.0s;
     transform-origin: left top;
     position: absolute;
