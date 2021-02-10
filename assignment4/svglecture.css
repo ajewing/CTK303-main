@@ -1,23 +1,35 @@
-#SVGLogo  {
+body  {
     width: 500px;
     background-image: url(images/abstractshape.jpg);
+}
+
+
+#SVGLogo  {
+    width: 300px;
     animation: zoom 5.0s;
-    transform-origin: left top;
+    transform-origin: right top;
     position: absolute;
     top: 60px;
     right: 0;
 }
 
+@keyframes  zoom {
+0%  {right: 2000px;
+  transform: scale(.1);}
+100%  {right: 0px; 
+  transform: scale(1.0);}
+}
 
 
-#circleSVG {
+
+#SVGLogo {
   opacity: 1;
   transition: all 1s linear;
   border: 1px solid red;
 }
 
-#circleSVG:hover {
-  fill: red;
+#SVGLogo:hover {
+  /* fill: red; */
   opacity: .5;
   transform: scale(5);
 }
@@ -26,6 +38,8 @@
   width: 500px;
   display: block;
 }
+
+
 
 #M {
   animation: mfade 1.0s;
