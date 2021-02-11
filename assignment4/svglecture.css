@@ -10,12 +10,16 @@ margin: 8px;
 
 h1   {
 text-align: center;
-  width: 500px;
-  margin-top: : 300px;
-  font-size: 50px;
-  display: inline;
   font-family: inherit , sans-serif;
-  color: #B3B3FF;
+  color: #BFFFB3;
+  font-size: 80px;
+  padding: 25px;
+  text-align: center;
+  margin-left: 320px;
+  margin-right: 320px;
+  border-radius: 480px;
+  background-color: #5D8AA8;
+
 }
 
 #SVGLogo  {
@@ -23,15 +27,12 @@ text-align: center;
     animation: zoom 5.0s;
     transform-origin: right top;
     translate(300px, 0);
-    0% { transform: scale(.1) translate(0,0) }
-100% { transform: scale(1.0) translate(300px, 0) }
+
 }
 
 @keyframes  zoom {
-0%  {right: 2000px;
-  transform: scale(.1);}
-100%  {right: 0px;
-  transform: scale(1.0);}
+  0% { transform: scale(.1) translate(0,0) }
+  100% { transform: scale(1.0) translate(300px, 0) }
 }
 
 
@@ -139,4 +140,24 @@ text-align: center;
 @keyframes nfade {
   0%   { transform: translate(0, 200px);}
   100% { transform: translate(0, 0);}
+}
+
+
+#slide1 {
+  overflow: hidden;
+}
+
+#slide1 img {
+  transition: all .25s;
+  position: relative;
+  animation: circle1-ani 4s linear infinite;
+}
+
+#slide1:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes circle1-ani {
+  0%   { opacity: .5; left:0px }
+  100% { opacity: .5; left: 1000px; }
 }
