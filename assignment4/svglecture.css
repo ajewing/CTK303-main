@@ -25,7 +25,7 @@ text-align: center;
 #SVGLogo  {
     width: 300px;
     animation: zoom 5.0s;
-    transform-origin: right top;
+    transform-origin: left top;
     translate(300px, 0);
 
 }
