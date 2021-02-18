@@ -47,15 +47,6 @@ nav a {
 	padding: 1em;
 }
 
-#mainimg {
-    display: block;
-}
-
-#mainimg {
-	width: 70%;
-	margin-bottom: 2em;
-
-}
 
 
 
@@ -102,7 +93,9 @@ footer {
 
 @media all and (min-width: 50em){
   h1 { color: red; padding-bottom: .1em; }
-  #mainimg { width: 70%; float: right; }
-  nav { width: 30%; grid-template-columns: 3, 1fr; }
+  #mainimg { width: 30%; float: right; }
+  nav { width: 30%; grid-template-columns: 1fr; }
   nav a { margin-right: 1em; }
+  main { clear: both; grid-template-columns: repeat(3,1fr); grid-column-gap: 2em; }
+  body { max-width: 960px; margin: 0em auto; }
 }
