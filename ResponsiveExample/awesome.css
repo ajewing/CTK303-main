@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	padding: 1em;
 	grid-column:
+	 width: 70%;
 }
 
 h1 {
@@ -46,14 +47,25 @@ nav a {
 	padding: 1em;
 }
 
-section {
+#mainimg {
     display: block;
 }
 
-.sectionimg {
-	width: 100%;
+#mainimg {
+	width: 70%;
 	margin-bottom: 2em;
+
 }
+
+
+
+	@media all and (min-width: 50em){
+	  h1 { color: red; padding-bottom: .1em; }
+	  #mainimg { width: 70%; float: right; }
+	  nav { width: 30%; grid-template-columns: 1fr; }
+	  nav a { margin-right: 1em; }
+	}
+
 
 p {
     display: block;
@@ -82,3 +94,15 @@ footer {
 }
 
 /*  Media Queries (responsive to screen width) */
+
+@media all and (min-width: 30em){
+  h1 { color: blue; }
+  nav { grid-template-columns: repeat(4,1fr) }
+}
+
+@media all and (min-width: 50em){
+  h1 { color: red; padding-bottom: .1em; }
+  #mainimg { width: 70%; float: right; }
+  nav { width: 30%; grid-template-columns: 3, 1fr; }
+  nav a { margin-right: 1em; }
+}
