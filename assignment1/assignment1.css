@@ -34,7 +34,8 @@ main {
   grid-column: span 1;
   padding: 5px;
 }
-nav li {
+
+nav ul li {
   list-style: none;
 
 }
